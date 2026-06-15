@@ -5,8 +5,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master',
-                    url: 'https://github.com/cjcnkolhe/jenkinsweb_repo.git'
+                git branch: 'main',
+                    url: 'https://github.com/Atharv-Auti/jenkinwebrepo.git'
             }
         }
 
